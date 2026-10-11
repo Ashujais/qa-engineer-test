@@ -7,8 +7,10 @@
   "scripts": {
     "start": "node src/server.js",
     "dev": "node --watch src/server.js",
-    "test": "node --test src/**/*.test.js",
-    "verify-bugs": "node scripts/verify-bugs.js"
+    "test": "node --test",
+    "test:coverage": "node --test --experimental-test-coverage",
+    "verify-bugs": "node scripts/verify-bugs.js",
+    "verify-fixes": "node scripts/verify-fixes.js"
   },
   "keywords": [
     "eupay",
