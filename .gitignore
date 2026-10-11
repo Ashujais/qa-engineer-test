@@ -6,3 +6,4 @@ npm-debug.log*
 
 # Candidate submissions
 submissions/
+*.zip
